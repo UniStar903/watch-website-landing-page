@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/watch-website-landing-page/static/css/main.b10b839b.css",
+    "main.js": "/watch-website-landing-page/static/js/main.2ed2b639.js",
+    "static/js/488.f7c7daa0.chunk.js": "/watch-website-landing-page/static/js/488.f7c7daa0.chunk.js",
+    "static/media/amazon.png": "/watch-website-landing-page/static/media/amazon.2d3264f7d89cda1a9a10.png",
+    "index.html": "/watch-website-landing-page/index.html",
+    "main.b10b839b.css.map": "/watch-website-landing-page/static/css/main.b10b839b.css.map",
+    "main.2ed2b639.js.map": "/watch-website-landing-page/static/js/main.2ed2b639.js.map",
+    "488.f7c7daa0.chunk.js.map": "/watch-website-landing-page/static/js/488.f7c7daa0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b10b839b.css",
+    "static/js/main.2ed2b639.js"
+  ]
+}
