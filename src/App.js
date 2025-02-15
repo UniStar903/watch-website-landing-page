@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './amazon.png';
+import React, {Component} from 'react';
+import classes from './App.module.css';
+import ProductData from './ProductData';
+import ProductDetails from './ProductDetails';
+import ProductReview from './ProductReview';
+import TopNav from './TopNav';
 
-function App() {
-  return (
+class App extends Component {
+  state = {
+    productData: ProductData
+  }
+
+  render(){
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <TopNav/>
+      <div className={classes.MainContainer}>
+          <ProductReview/>
+          <ProductDetails data = {this.state.productData}/>
+      </div>
     </div>
   );
+};
 }
 
 export default App;
