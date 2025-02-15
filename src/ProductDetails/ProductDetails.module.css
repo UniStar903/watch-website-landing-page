@@ -43,7 +43,7 @@
   }
   
   .ProductImage{
-    z-index: 0;
+    z-index: -1;
     width: 100%;
     max-width: 80px;
     border: 2px solid transparent;
@@ -56,6 +56,7 @@
   }
   
   .FeatureItem{
+    z-index: -1;
     background-color: gainsboro;
     border-radius: 8px;
     border: 0;
