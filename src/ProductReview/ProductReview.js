@@ -7,9 +7,10 @@ const ProductReview = (props) => {
     return(
         <div className={classes.ProductReview}>
             <img src={props.currentPreviewImage} alt ="wrist watch"></img>
-            {props.showHeartBeatSection ?
+            {/* {props.showHeartBeatSection ? */}
+            {props.currentSelectedFeature ===1 ?
             <div className={classes.HeartBeatSection}>
-                <i class="fas fa-heartbeat"></i>
+                <i className="fas fa-heartbeat"></i>
                 <p>78</p>
             </div> :
             <div className={classes.TimeSection}>
