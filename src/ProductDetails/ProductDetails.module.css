@@ -43,6 +43,7 @@
   }
   
   .ProductImage{
+    z-index: 1;
     width: 100%;
     max-width: 80px;
     border: 2px solid transparent;
